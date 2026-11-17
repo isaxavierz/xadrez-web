@@ -44,8 +44,15 @@ npx serve .
 
 ```
 chess-web/
-├── index.html      # Estrutura da página, estilização e lógica do jogo
-└── README.md
+├── index.html              # Página inicial (continua na raiz)
+├── README.md
+├── LICENSE
+└── assets/
+    ├── styles/
+    │   └── global.css      # Reset CSS, fontes e variáveis de cores
+    ├── scripts/
+    │   └── main.js         # Código geral
+    └── images/             # Fotos e ilustrações
 ```
 
 ## 🎯 Objetivo de aprendizado
@@ -55,7 +62,7 @@ chess-web/
 - Estilização de tabuleiros e elementos interativos com CSS
 
 ## 🖼️ Demonstração
-![Interface atual](image.png)
+![Interface atual](./assets/images/image.png)
 
 ## 📄 Licença
 
