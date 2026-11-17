@@ -9,7 +9,7 @@ Versão web do clássico jogo de xadrez, com tabuleiro visual, interação via c
 ## 🚀 Funcionalidades
 
 - [x] Tabuleiro 8x8 renderizado em HTML/CSS
-- [ ] Movimentação das peças via clique ou arrastar (drag and drop)
+- [x] Movimentação das peças via clique ou arrastar (drag and drop)
 - [ ] Validação de movimentos válidos por tipo de peça
 - [ ] Destaque de casas possíveis ao selecionar uma peça
 - [ ] Detecção de xeque e xeque-mate

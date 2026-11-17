@@ -1,0 +1,60 @@
+.casa-preta,
+.casa-branca {
+  width: 72px;
+  height: 72px;
+  box-sizing: border-box;
+  padding: 4px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: relative;
+}
+.casa-branca {
+  background-color: #e6dabb;
+  color: #1e1702;
+}
+.casa-preta {
+  background-color: #8c886b;
+  /* color:  #e5e3e4; */
+  color: #e6dabb;
+}
+.linha {
+  grid-column: 1;
+  grid-row: 1;
+  user-select: none;
+}
+.coluna {
+  grid-column: 3;
+  grid-row: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  user-select: none;
+}
+.peca {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.8rem;
+  line-height: 1;
+  z-index: 1;
+}
+.peca-branca {
+  color: #e5e3e4;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  user-select: none;
+}
+.peca-preta {
+  color: #1e1702;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  user-select: none;
+}
